@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    list-style: none;
+}
+
+
+
+/* estilização do fundo */
+
+
+ body {
+    background-color: rgb(171, 202, 223);
+    align-items: center;
+}
+
+
+ body > .form-users {
+    text-align: center;
+    margin-top: 70px;
+ }
+
+ body > h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 60px;
+}
+
+ body > h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+   /* fim da estilização do fundo */
+
+
+
+
+  /* estilização do formulário */
+
+.form-users > input{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: rgb(143, 146, 146);
+    color: white;
+}
+
+
+.form-users > input::placeholder {
+    color: white;
+}
+
+.form-users> label {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
